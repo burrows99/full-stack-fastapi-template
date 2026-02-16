@@ -14,8 +14,10 @@
                 "--reload"
             ],
             "cwd": "${workspaceFolder}/backend",
+            "python": "${workspaceFolder}/.venv/bin/python",
             "jinja": true,
             "envFile": "${workspaceFolder}/.env",
+            "console": "integratedTerminal"
         },
         {
             "type": "chrome",
